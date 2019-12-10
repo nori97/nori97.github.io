@@ -1,0 +1,166 @@
+
+<script> 
+    var sum= 0;      
+    for(var i=2014; i<= 2050; i++)
+    {      
+    var d = new Date(i, 0, 1);
+    var sun = d.getDay();
+        if(sun == 0)
+        {   
+            sum++;
+        }
+    }
+    document.write (sum);      
+</script>
+
+--------------------------------------------
+    <button type="button" onclick="myfunction()">try it</button>
+    <p id="demo"></p>
+
+<script> 
+    function myfunction()  {
+        var number = prompt("Add a number between 1 and 10!"); 
+        var rnd = Math.floor(Math.random() * 10) + 1;  
+            if(number == rnd)  
+                {
+                    document.getElementById("demo").innerHTML= "Good work!";
+                }
+            else 
+                { 
+                    document.getElementById("demo").innerHTML= "Bad number!";
+                }
+            }    
+</script>
+--------------------------------------------
+
+<script> 
+    var d1 = new Date();
+    var d2 = new Date(2019, 11, 24);
+    var diffTime = d2 - d1;
+    var diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); 
+    console.log(diffDays);
+</script>
+
+--------------------------------------------
+
+<div style="border:2px solid gray; width:350px; height:200px;">
+    <form action="/action_page.php">
+        First number:
+        <input type="text" id="number1"><br><br>
+        Second number:
+        <input type="text" id="number2"><br><br>
+      </form> 
+    <button type="button" onClick="Multiply()" >Multiply</button>
+    <button type="button" onClick="Divide()">Divide</button><br>
+    The Result is : 
+    <nobr id="result"></p>
+</div>
+
+<script>
+    function Multiply() { 
+        number1 = document.getElementById("number1").value;
+        number2 = document.getElementById("number2").value;
+        document.getElementById("result").innerHTML = number1 * number2;
+    }
+
+    function Divide() { 
+        number1 = document.getElementById("number1").value;
+        number2 = document.getElementById("number2").value;
+        document.getElementById("result").innerHTML = number1 / number2;
+    }   
+</script>
+
+--------------------------------------------
+
+<div style="border:2px solid gray; width:350px; height:200px;">
+    <form action="/action_page.php">
+        Convert Celsius to Fahrenheit:
+        <input type="text" id="Celsius"><br><br>
+       
+      </form> 
+    <button type="button" onClick="Convert()" >Convert</button><br>
+    The Result is : 
+    <nobr id="result"></p>
+</div>
+
+<script>
+    function Convert() { 
+        Celsius = document.getElementById("Celsius").value;
+        document.getElementById("result").innerHTML = ((Celsius/5)*9)+32;
+    }
+</script>
+
+--------------------------------------------
+
+<script>
+   input = prompt("Add a number or a string!");
+   if (isNaN(input) == true) {
+       console.log("string");
+   }
+   else {
+       console.log("number");
+   }
+</script>
+
+--------------------------------------------
+
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+    	button {
+          background-color : pink; 
+          width :250px;
+          height :250px;
+          border : 1px solid white;
+        }
+        img{
+          height:200px;
+          width:200p;
+        }
+    </style>
+
+</head>
+<body>
+
+
+ <button onmouseover="myFunction(this)" onmouseout="Function(this)"> <div id="demo"><img src="https://images.pexels.com/photos/259803/pexels-photo-259803.jpeg?cs=srgb&dl=adorable-animal-animal-photography-259803.jpg&fm=jpg"  onmouseover="myFunction(this)"</div></button>
+
+<script>
+	function myFunction(x) {
+	x.style.background = "red";
+	}
+
+	function Function(x) {
+	x.style.background = "pink";
+	}
+</script>
+
+</body>
+</html>
+
+--------------------------------------------
+
+<script>
+
+var drinks = ["limonade", "Cocoa", "Tea", "water"];
+document.write("<ol>")
+for(var i = 0; i < drinks.length; i++)
+{	document.write("<li>");
+	document.write("<a href='https://www.w3schools.com/html/'>"); 
+    document.write("<p style='background-color:Tomato;border:2px solid DodgerBlue;'>");
+    document.write(drinks[i]);
+    document.write("</p>");
+    document.write("</a>");
+    document.write("</li>");
+}
+document.write("</ol>");
+
+</script>
+--------------------------------------------
+
+--------------------------------------------
+
+--------------------------------------------
+
+--------------------------------------------

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="mail.css">
+</head>
+<body>
+<!--Navbar-->
+<nav class="navbar navbar-light purple lighten-4 hamburger-menu">
+
+        <!-- Navbar brand -->
+        <div class="nav-item">
+                <i class="fab fa-gitkraken"></i>
+            </div>
+            <div class="nav-item mr-auto">
+                <p>Mailkraken</p> 
+            </div>
+      
+        <!-- Collapse button -->
+        <button class="navbar-toggler toggler-example purple darken-3" type="button" data-toggle="collapse"
+          data-target="#navbarSupportedContent41" aria-controls="navbarSupportedContent41" aria-expanded="false"
+          aria-label="Toggle navigation"><span class="white-text"><i class="fas fa-bars fa-1x"></i></span></button>
+      
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent41">
+      
+          <!-- Links -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Why mailkraken?
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Resources
+                </a>
+                <div class="dropdown-menu container-fluid" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+          </ul>
+          <!-- Links -->
+      
+        </div>
+        <!-- Collapsible content -->
+      
+      </nav>
+      <!--/.Navbar-->
+<nav class="navbar navbar-expand-lg desktop-menu">
+    <div class="nav-item">
+        <i class="fab fa-gitkraken"></i>
+    </div>
+    <div class="nav-item mr-auto">
+        <p>Mailkraken</p> 
+    </div>
+                
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Why mailkraken?
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Resources
+        </a>
+        <div class="dropdown-menu container-fluid" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+        </li>
+    </ul>
+    </div>
+    <div>
+        <div class="login">
+            <li class="nav-item">
+                <a  class="btn btn-primary btn-lg" data-toggle="modal" data-target="#exampleModal2">Sign up free</a>
+            </li>
+            <li class="nav-item">
+                <a class="btn btn-secondary btn-lg" data-toggle="modal"data-target="#exampleModal">Login</a>
+            </li>
+        </div>
+    </div>
+</nav>
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form action="action_page.php">
+                <div class="container">
+                  <label for="uname"><b>Email: </b></label>
+                  <input type="text" name="uname" required><br>
+              
+                  <label for="psw"><b>Password: </b></label>
+                  <input type="password" name="psw" required><br>
+              
+                  
+                  <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                  </label>
+                </div>            
+                <div class="container" style="background-color:#f1f1f1">
+                  <span class="psw"><a href="#">Forgot password?</a></span>
+                </div>
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Login</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Registration</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form action="action_page.php">
+                <div class="container">
+                  <label for="email"><b>Email: </b></label>
+                  <input type="text" name="email" required><br>
+              
+                  <label for="psw"><b>Password: </b></label>
+                  <input type="password" name="psw" required><br>
+              
+                  <label for="psw-repeat"><b>Password: </b></label>
+                  <input type="password" name="psw-repeat" required><br>
+                </div>
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Registration</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<h1>What you can do with<br> Mailkraken</h1>
+
+<div class="text-left">
+    <div class="row ">
+        <div class="col-sm-6">
+               <h5> Put your audience first</h5>
+               Know who you’re talking to so you can say the right things.
+        </div>
+        <div class="col-sm-6">
+                <h5> Bring your brand to life</h5>
+                Look like a pro with elegant, easy-to-use design tools.
+        </div><br>
+        <div class="col-sm-6">
+                <h5>Create integrated campaigns</h5>
+                Spread the word with social, email, ads, and more.
+        </div>
+        <div class="col-sm-6">
+                <h5>Turn data into insights</h5>
+                Our recommendations get smarter as you go.
+        </div>
+    </div>
+</div>
+
+
+
+
+<h1>Flexible plans that grow with you</h1>
+<p>Needs change as businesses grow. We’ll help you market smarter from day one.</p>
+<div class="table-responsive">
+<table class="table ">
+        <thead class="thead-light">
+          <tr>
+            <th scope="col-sm-3">Premium</th>
+            <th scope="col-sm-3">Standard</th>
+            <th scope="col-sm-3">Essentials</th>
+            <th scope="col-sm-3">Free</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td scope="row">Advanced features for pros who need more customization.</td>
+            <td>Better insights for growing businesses that want more customers.</td>
+            <td>Must-have features for email senders who want added support.</td>
+            <td>All the basics for businesses that are just getting started.</td>
+          </tr>
+          <tr>
+            <td scope="row">$299</td>
+            <td>$14</td>
+            <td>$9</td>
+            <td>$0</td>
+          </tr>
+          <tr>
+            <td scope="row">Everything in Standard, plus:
+                    Advanced segmentation
+                    Multivariate testing
+                    Unlimited seats and role-based access
+                    Phone support</td>
+            <td>Everything in Essentials, plus:
+                    Automation series
+                    Retargeting ads
+                    Custom templates
+                    Advanced audience insights</td>
+            <td>Everything in Free, plus:
+                    All email templates
+                    A/B testing
+                    Custom branding
+                    24/7 award-winning support</td>
+            <td>7 marketing channels
+                    1-click automations
+                    Basic templates
+                    Marketing CRM</td>
+        </tr>
+        <tr>
+            <td><button type="button" class="btn btn-info">Select</button></td>
+            <td><button type="button" class="btn btn-info">Select</button></td>
+            <td><button type="button" class="btn btn-info">Select</button></td>
+            <td><button type="button" class="btn btn-info">Select</button></td>
+            </tr>
+        <tr>
+    </tbody>
+</table>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

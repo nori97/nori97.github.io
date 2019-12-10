@@ -1,0 +1,130 @@
+
+i {
+    font-size:36px
+}
+
+.navbar a {
+    color: white;
+    padding-top: 20px;
+}
+
+.navbar {
+    background-color: rgb(50, 50, 250);
+    color: white;
+}
+
+.btn {
+    color: rgb(252, 250, 248) !important;
+    border-color: white !important;
+    align-items: flex-end !important;
+    border-radius: 0% !important;
+    float: right !important;
+}
+
+.login {
+    display: flex;
+    flex: right;
+    margin-right: auto;
+
+}
+
+.login li {
+    list-style-type: none;
+}
+
+.login .nav-item a {
+    height: 44px;
+    white-space: nowrap;
+    margin: 5px !important;
+    padding: 8px !important;
+    margin-left: 10px !important;
+}
+
+p {
+    padding-top: 20px;
+    font-size: 28px;
+    padding-right: 30px;
+    padding-left: 10px;
+}
+
+.dropdown-menu dropdown-item {
+    color: black;
+}
+
+.navbarDropdown {
+    color: white;
+}
+ h1 {
+     text-align:center;
+     padding-top: 20px;
+ }
+
+ .col-sm {
+     padding-top: 30px;
+ }
+
+.dropdown-menu .dropdown-item {
+
+    color: black !important;
+
+ }
+
+@media screen and (max-width: 991px) {
+    .hamburger-menu {
+        display: flex;
+    }
+
+    .desktop-menu {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .hamburger-menu {
+        display: none;
+    }
+
+    .desktop-menu {
+        display: flex;
+    }
+}
+
+.navbar-toggler {
+    background: white;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.dropdown-item a{
+    width: 10%;
+}
+
+.navbar-nav .dropdown-menu {
+    position: inline !important;    
+}
+
+.container-fluid {
+    width: auto;      
+}
+
+.dropdown-menu {
+    width: fit-content;
+}
+
+.text-left {
+    background-color: rgb(202, 202, 240);
+    padding: 5%;
+    padding-left: 10% !important;
+}
+
+td, th {
+    width: 25%;
+}
+
+.btn .btn-secondary .btn-lg {
+    border: white;
+    background-color: gray;
+}
+
