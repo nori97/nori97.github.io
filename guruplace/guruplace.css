@@ -1,0 +1,147 @@
+.navbar{
+    background-color: black;   
+}
+
+li > a {
+    color: #ffffff;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.nav-link {
+    padding-top: 40px !important;
+    display: inline !important;
+}
+
+ .nav-item {
+    font-size: 20px;
+    font-style: normal;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+}
+
+.logo {
+    height:100px;
+    width:250px;
+}
+
+a:hover {
+    color:red !important;
+    border-bottom: solid 2px red;
+}
+
+.header-text {
+    position: absolute;
+    top: 30%;
+    left: 1.8%;
+    right: auto;
+    width: 100%;
+    weight: 600;
+    color: #fff;
+    font-size: 50px;
+}
+
+.d-block {
+    filter: brightness(50%);
+}
+
+.fas {
+    position: relative;
+    top: -100px !important;
+    z-index: 10;
+    left: 47%;
+    font-size: 100px;
+    color: rgb(181, 197, 241);
+ }
+
+ .black {
+    position: relative;
+    top: -50px !important;
+ }
+
+ .col {
+    position: relative;
+    top: -1000px !important;
+    z-index: 10;
+ }
+
+ h2 {
+    color:red;
+ }
+
+ p {
+    color:white;
+    font-size: 20px !important;
+ }
+
+ .res2 {
+    position: relative;
+    top: -800px;
+ }
+    
+ body {
+    background-color: gray !important;
+ }
+
+.active a {
+    color: red;
+    border-bottom: solid 2px red;
+}
+
+.rest2 {
+    width: -webkit-fill-available;
+    filter: brightness(30%);
+}
+
+.catering {
+    font-size: 35px !important;
+    color: white;
+    text-align: center !important;
+    position: relative;
+    top: 150px !important;
+    z-index: 1;
+}
+
+.spicture {
+    position: relative;
+    top: -1200px !important;
+    border: solid 5px white;
+}
+
+
+.spicturecontainer .row div {
+    text-align: center;
+}
+
+.click {
+    top: -1100px;
+}
+
+button {
+    font-size: 18px !important;
+}
+
+.btn-primary {
+    color: black !important;
+    background-color: white !important;
+    border-color: white !important;
+    border-radius: 0px !important;    
+    padding-left: 35px !important;
+    padding-right: 35px !important; 
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+
+.food {
+    position: relative;
+    top: -1060px !important;
+
+}
+
+.menu {
+    top: -1700px;
+    text-align: center;
+}
