@@ -9,7 +9,7 @@ li > a {
 
 
 .nav-link {
-    padding-top: 10% !important;
+    padding-top: 40px !important;
     display: inline !important;
 }
 
@@ -24,8 +24,8 @@ li > a {
 }
 
 .logo {
-    height: 10%;
-    width: 20%;
+    height:100px;
+    width:250px;
 }
 
 a:hover {
@@ -42,7 +42,6 @@ a:hover {
     weight: 600;
     color: #fff;
     font-size: 50px;
-
 }
 
 .d-block {
@@ -51,7 +50,7 @@ a:hover {
 
 .fas {
     position: relative;
-    top: 10px !important;
+    top: -100px !important;
     left: 47%;
     font-size: 100px;
     color: rgb(20, 80, 245);
@@ -180,21 +179,10 @@ input {
 }
 
 .restaurant3 {
-    
-    height: 300px;
-    width: 100%;
-    background:linear-gradient(rgb(8, 8, 8), rgba(255, 255, 255, 0)), url("restaurant.jpg");
+    background:linear-gradient(rgb(8, 8, 8), rgba(255, 255, 255, 0)), url("restaurant3.jpg");
+    height: 100px !important;
 }
 
-.title {
-    color:white;
-    text-align: center;
-    padding-top: 8%;
-    font-size: 50px;
-    font-weight: 700;
-    letter-spacing: -3px;
-
-}
 
 .food {
     background-image: url("food.jpg");
