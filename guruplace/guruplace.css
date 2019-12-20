@@ -9,7 +9,7 @@ li > a {
 
 
 .nav-link {
-    padding-top: 40px !important;
+    padding-top: 10% !important;
     display: inline !important;
 }
 
@@ -24,8 +24,8 @@ li > a {
 }
 
 .logo {
-    height:100px;
-    width:250px;
+    height: 10%;
+    width: 20%;
 }
 
 a:hover {
@@ -42,6 +42,7 @@ a:hover {
     weight: 600;
     color: #fff;
     font-size: 50px;
+
 }
 
 .d-block {
@@ -50,22 +51,11 @@ a:hover {
 
 .fas {
     position: relative;
-    top: -100px !important;
-    z-index: 10;
+    top: 10px !important;
     left: 47%;
     font-size: 100px;
-    color: rgb(181, 197, 241);
- }
-
- .black {
-    position: relative;
-    top: -50px !important;
- }
-
- .col {
-    position: relative;
-    top: -1000px !important;
-    z-index: 10;
+    color: rgb(20, 80, 245);
+    z-index: 1;
  }
 
  h2 {
@@ -77,13 +67,17 @@ a:hover {
     font-size: 20px !important;
  }
 
- .res2 {
-    position: relative;
-    top: -800px;
+ .black {
+    height:800px;
+    background-image: url("blackbackground.png");
+    padding-top:8%;
+    width: 100%;
  }
+
     
  body {
     background-color: gray !important;
+    width: 100%;
  }
 
 .active a {
@@ -91,33 +85,19 @@ a:hover {
     border-bottom: solid 2px red;
 }
 
-.rest2 {
-    width: -webkit-fill-available;
-    filter: brightness(30%);
-}
-
 .catering {
     font-size: 35px !important;
     color: white;
-    text-align: center !important;
-    position: relative;
-    top: 150px !important;
-    z-index: 1;
+    text-align: center;  
 }
 
 .spicture {
-    position: relative;
-    top: -1200px !important;
     border: solid 5px white;
+ 
 }
-
 
 .spicturecontainer .row div {
     text-align: center;
-}
-
-.click {
-    top: -1100px;
 }
 
 button {
@@ -135,13 +115,101 @@ button {
     padding-bottom: 15px !important;
 }
 
-.food {
-    position: relative;
-    top: -1060px !important;
+.menu {
+    text-align: center;
+    padding-top: 15%;
+}
+
+.menu2 {
+    color:black;
+}
+
+.btn2 {
+    color: white !important;
+    background-color: rgb(82, 64, 250) !important;
+    border-color: rgb(1, 0, 54) !important;
+}
+
+.events {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3 { 
+    color: red;
+}
+
+input {
+    padding: 10px;
+    width: 250px;
+}
+
+.message {
+    height: 200px;
+    padding: 10px;
+    width: 250px;
+}
+
+.fab {
+    color: #ffffff;
+    font-size: 35px;
+    padding-right: 5px;
+}
+
+.footer {
+    background-color: black;
+    width: 1000px;
+    height: 300px;
+  
+}
+
+.black-box {
+    background-color: black;
+    height: 200px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.restaurant2 {
+
+    padding-top:8%;
+    height: 600px;
+    background:linear-gradient(rgb(8, 8, 8), rgba(255, 255, 255, 0)), url("restaurant2.jpg");
+}
+
+.restaurant3 {
+    
+    height: 300px;
+    width: 100%;
+    background:linear-gradient(rgb(8, 8, 8), rgba(255, 255, 255, 0)), url("restaurant.jpg");
+}
+
+.title {
+    color:white;
+    text-align: center;
+    padding-top: 8%;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -3px;
 
 }
 
-.menu {
-    top: -1700px;
-    text-align: center;
+.food {
+    background-image: url("food.jpg");
+    height: 800px;
+    width: 100%;
+}
+
+.boxs {
+    padding: 20px;
+}
+
+.footerlogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    top: 100px;
 }
