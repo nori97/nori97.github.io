@@ -4,19 +4,22 @@
 }
 
 li > a {
-    color: #ffffff;
+    color: #ffffff !important;
     font-family: 'Work Sans', sans-serif;
 }
 
 
 .nav-link {
-    padding-top: 40px !important;
     display: inline !important;
 }
 
 .nav-item {
     font-size: 20px;
     font-style: normal;
+}
+
+.active .nav-link {
+    color: red !important;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -395,6 +398,10 @@ input {
 
   .hamburger-menu {
       background-color: black;
+  }
+
+  .hamburger-menu div ul li {
+      margin-top: 5px;
   }
 
   .event-box {
