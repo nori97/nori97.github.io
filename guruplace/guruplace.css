@@ -1,5 +1,6 @@
 .navbar{
     background-color: black;   
+
 }
 
 li > a {
@@ -13,7 +14,7 @@ li > a {
     display: inline !important;
 }
 
- .nav-item {
+.nav-item {
     font-size: 20px;
     font-style: normal;
 }
@@ -41,40 +42,20 @@ a:hover {
     width: 100%;
     weight: 600;
     color: #fff;
-    font-size: 50px;
 }
 
 .d-block {
     filter: brightness(50%);
 }
 
-.fas {
-    position: relative;
-    top: -100px !important;
-    left: 47%;
-    font-size: 100px;
-    color: rgb(20, 80, 245);
-    z-index: 1;
- }
-
- h2 {
-    color:red;
- }
-
- p {
-    color:white;
-    font-size: 20px !important;
- }
-
- .black {
-    height:800px;
+.black {
     background-image: url("blackbackground.png");
     padding-top:8%;
     width: 100%;
+    padding-bottom: 40px;
  }
-
     
- body {
+body {
     background-color: gray !important;
     width: 100%;
  }
@@ -97,36 +78,6 @@ a:hover {
 
 .spicturecontainer .row div {
     text-align: center;
-}
-
-button {
-    font-size: 18px !important;
-}
-
-.btn-primary {
-    color: black !important;
-    background-color: white !important;
-    border-color: white !important;
-    border-radius: 0px !important;    
-    padding-left: 35px !important;
-    padding-right: 35px !important; 
-    padding-top: 15px !important;
-    padding-bottom: 15px !important;
-}
-
-.menu {
-    text-align: center;
-    padding-top: 15%;
-}
-
-.menu2 {
-    color:black;
-}
-
-.btn2 {
-    color: white !important;
-    background-color: rgb(82, 64, 250) !important;
-    border-color: rgb(1, 0, 54) !important;
 }
 
 .events {
@@ -185,7 +136,7 @@ input {
 
 
 .food {
-    background-image: url("food.jpg");
+    background:linear-gradient(rgb(185, 184, 184), rgba(255, 255, 255, 0)), url("food.jpg"); 
     height: 800px;
     width: 100%;
 }
@@ -194,10 +145,268 @@ input {
     padding: 20px;
 }
 
-.footerlogo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position:relative;
-    top: 100px;
+
+@media screen and (max-width: 500px) {
+  
+    input {
+        padding: 10px;
+        width: 180px;
+    }
+    
+    .message {
+        height: 100px;
+        padding: 10px;
+        width: 180px;
+    }
+    .footerlogo {
+        width:100px ;
+        height: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position:relative;
+        top: 40px;
+    }
+    .h2 {
+        font-weight: 600;
+        text-align: center;
+    }
+    
+    .menu {
+        font-weight: 600;
+        text-align: center;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding-top: 15%;
+    }
+    
+    h2 {
+        color:red;
+        font-size: 18px !important;
+    }
+
+
+    .btn2 {
+        color: white !important;
+        background-color: rgb(82, 64, 250) !important;
+        border-color: rgb(1, 0, 54) !important;
+    }
+    button {
+        font-size: 12px !important;
+    }
+    
+    .btn-primary {
+        color: black;
+        background-color: white;
+        border-color: white;
+        border-radius: 0px !important;    
+        padding-left:20px !important;
+        padding-right: 20px !important; 
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+    .spicture {
+        height: 100px;
+        width: 100px;
+    }
+    .fas {
+        position: relative;
+        top: -80px !important;
+        left: 47% !important;
+        font-size: 50px !important;
+        color: rgb(20, 80, 245) !important;
+        z-index: 1 !important;
+     }
+    .hamburger {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .header-text {
+        font-size: 16px !important;
+    }
+    }
+@media screen and (max-width: 1010px) {
+    .footerlogo {
+        width:100px ;
+        height: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position:relative;
+        top: 40px;
+    }
+    .h2 {
+        font-weight: 600;
+        font-weight: 600;
+        text-align: center;
+    }
+    
+    .menu {
+        font-weight: 600;
+        color:black !important;
+        text-align: center;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding-top: 15%;
+    }
+    
+    h2 {
+        color:red;
+        font-size: 18px !important;
+    }
+
+    .btn2 {
+        color: white !important;
+        background-color: rgb(82, 64, 250) !important;
+        border-color: rgb(1, 0, 54) !important;
+    }
+    button {
+        font-size: 14px !important;
+    }
+    
+    .btn-primary {
+        color: black;
+        background-color: white;
+        border-color: white;
+        border-radius: 0px !important;    
+        padding-left: 25px !important;
+        padding-right: 25px !important; 
+        padding-top: 12px !important;
+        padding-bottom: 12px !important;
+    }
+    .spicture {
+        height: 100px;
+        width: 100px;
+    }
+    .fas {
+        position: relative;
+        top: -100px;
+        left: 47%;
+        font-size: 70px;
+        color: rgb(20, 80, 245);
+        z-index: 1;
+     }
+    .hamburger-menu {
+        display: flex;
+        
+    }
+    .hamburger {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .desktop-menu {
+        display: none;
+    }
+    .header-text {
+        font-size: 20px;
+    }
 }
+
+@media screen and (min-width: 1011px) {
+    .footerlogo {
+        width:200px ;
+        height: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position:relative;
+        top: 100px;
+    }
+    .h2 {
+        font-weight: 600;
+        text-align: center;
+    }
+    
+    .menu {
+        font-weight: 600;
+        color:black !important;
+        text-align: center;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding-top: 15%;
+    }
+    
+    h2 {
+        color:red;
+        font-size: 25px !important;
+    }
+
+    .btn2 {
+        color: white !important;
+        background-color: rgb(82, 64, 250) !important;
+        border-color: rgb(1, 0, 54) !important;
+    }
+    button {
+        font-size: 18px !important;
+    }
+    
+    .btn-primary {
+        color: black;
+        background-color: white;
+        border-color: white;
+        border-radius: 0px !important;    
+        padding-left: 35px !important;
+        padding-right: 35px !important; 
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+    }
+    .fas {
+        position: relative;
+        top: -100px !important;
+        left: 47%;
+        font-size: 100px;
+        color: rgb(20, 80, 245);
+        z-index: 1;
+     }
+    .hamburger-menu {
+        display: none;
+    }
+
+    .desktop-menu {
+        display: flex;
+    }
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(148, 144, 144);
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+  .hamburger-menu {
+      background-color: black;
+  }
+
+  .event-box {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .event-box .row div .card .card-body h3 {
+      font-size: 1.5vw;
+  }
+
+  #OUR p {
+      color: white;
+  }

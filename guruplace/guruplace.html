@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Guruplacerestaurant</title>
-    <link rel="stylesheet" href="guruplace.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="guruplace.css">
   </head>
 <body>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg desktop-menu">
         <img src="logo.png" alt="" class="logo">
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto">
@@ -35,6 +35,20 @@
               </ul>
             </div>
           </nav>
+
+          <div class="hamburger-menu">
+            <div class="col-10">
+              <img src="logo.png" alt="" class="logo">
+            </div>
+            <div class="col-2 container hamburger" onclick="myFunction(this)">
+              <div style="width: 35px;">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
+            </div>
+          </div>
+        
     
               <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                   <div class="carousel-inner">
@@ -77,17 +91,19 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                   </a>
-                    <a href="#OUR"><i class="fas fa-sort-down"></i></a>
                 </div>
+                <a href="#OUR"><i class="fas fa-sort-down"></i></a>
+
+                
             
                 
               <div class="black">
                 <div class="container">
                   <div class="row">
-                    <div class="col">
+                    <div class="col-12 col-sm-6">
                       <img src="restaurant4.jpg" weight="700px" height="400px" alt="" style="float: right;">
                     </div>
-                    <div class="col" id="OUR">
+                    <div class="col-12 col-sm-6" id="OUR">
                         <h2>OUR STORY</h2><br>
                         <p>
                             At Guru Palace Indian Restaurant, we offer distinctive cuisine in an informal, friendly setting.
@@ -128,10 +144,10 @@
 
                 <div class="food">
                   <div class="container">
-                    <div class="row justify-content-md-center">
+                    <div class="row">
                       <div class="col-5 menu">
-                        <h2>OUR MENU</h2><br>
-                          <p class="menu2">
+                        <h2 class="h2">OUR MENU</h2><br>
+                          <p>
                             Guru Palace is the ideal location for whatever the occasion; a casual get together, a special occasion or group dining. 
                             We are equipped with the very best equipments for outdoors and our massive production line enables us to produce food for up to 2000 people.
                           </p><br>
@@ -142,19 +158,19 @@
                 </div>
 
                 <div class="black">
-                  <div class="container">
-                    <div class="row justify-content-md-center">
-                      <div class="col-5 events">
+                  <div>
+                    <div class="justify-content-md-center">
+                      <div class="col-12 events">
                         <h2>Events</h2><br>
                           
                       </div>
                     </div>
                   </div>
 
-                  <div class="container cards">
+                  <div class="cards event-box">
                     <div class="row">
-                      <div class="col-sm">
-                        <div class="card" style="width: 21rem;height: 28rem;">
+                      <div class="col-4 col-sm-4">
+                        <div class="card">
                           <img src="restaurant4.jpg" class="card-img-top" alt="...">
                           <div class="card-body">
                             <p class="card-text"><h3>Celebrate Happy Mothers day with Guru Palace</h3></p>
@@ -162,8 +178,8 @@
                           </div>
                         </div>
                       </div>
-                      <div class="col-sm">
-                        <div class="card" style="width: 21rem;height: 28rem;">
+                      <div class="col-4 col-sm-4">
+                        <div class="card">
                           <img src="restaurant4.jpg" class="card-img-top" alt="...">
                           <div class="card-body">
                             <p class="card-text"><h3>Celebrate Holi with Guru Palace</h3>
@@ -172,8 +188,8 @@
                           </div>
                         </div>
                       </div>
-                      <div class="col-sm">
-                        <div class="card" style="width: 21rem;height: 28rem;">
+                      <div class="col-4 col-sm-4">
+                        <div class="card">
                           <img src="restaurant4.jpg" class="card-img-top" alt="...">
                           <div class="card-body">
                             <p class="card-text"><h3>Celebrate Happy Fathers day with Guru Palace</h3></p>
@@ -194,7 +210,7 @@
 
                 <div class="boxs">
                   <div class="row">
-                    <div class="col">
+                    <div class="col-6">
                       <h2>Have a message?</h2>
                       <form action="/action_page.php">
                        
@@ -209,7 +225,7 @@
                         <input type="submit" value="Submit">
                       </form> 
                     </div>
-                    <div class="col">
+                    <div class="col-6">
                       <h2>Contact Us</h2>
                       <p>
                         2215 US Highway 1 South, North Brunswick, NJ 08902 <br>
@@ -223,7 +239,7 @@
                       <i class="fab fa-facebook-square"></i>
                       <i class="fab fa-twitter"></i>    
                     </div>
-                    <div class="col">
+                    <div class="col-6">
                       <h2>Quick Links</h2>
                         <p>
                           Home<br>
@@ -236,7 +252,7 @@
                           Contact Us
                         </p>
                     </div>
-                    <div class="col">
+                    <div class="col-6">
                       <h2>Hours of operation</h2>
                         <p>
                           <b>7 DAYS OPEN</b><br>
@@ -262,7 +278,11 @@
                 </div>
 
                   
-                  
+      <script>
+        function myFunction(x) {
+          x.classList.toggle("change");
+        }
+      </script>    
 
                   
                   
