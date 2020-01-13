@@ -134,9 +134,18 @@ input {
 
 .restaurant3 {
     background:linear-gradient(rgb(8, 8, 8), rgba(255, 255, 255, 0)), url("restaurant3.jpg");
-    height: 100px !important;
+    height: 300px !important;
 }
 
+.restaurant4 {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+}
+
+.blue {
+    background: blue;
+}
 
 .food {
     background:linear-gradient(rgb(185, 184, 184), rgba(255, 255, 255, 0)), url("food.jpg"); 
@@ -148,6 +157,33 @@ input {
     padding: 20px;
 }
 
+.title {
+    font-size: 55px !important;
+    color: white;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.col-6 {
+    padding-left:0px !important;
+}
+
+.text{
+    padding-top: 20px !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    padding-bottom: 20px !important;
+}
+
+.white {
+    background: blanchedalmond;
+}
+
+#myCarousel {
+    height: 200px;
+    width: 100%;
+    
+}
 
 @media screen and (max-width: 500px) {
   
@@ -417,3 +453,168 @@ input {
   #OUR p {
       color: white;
   }
+
+  button {
+      border-radius: 0px !important;
+      font-size: 20px !important;
+      background-color: red !important;
+      width: 320px;
+      height: 60px;
+      margin-top: 50px !important;
+      margin-bottom: 50px !important;
+  }
+
+  button:hover {
+      background-color: black;
+  }
+
+  .carousel-caption {
+      height: 400px;
+  }
+
+  .carousel-indicators li {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 100%;
+  }
+
+  .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    padding-right: 0px;
+    padding-top: 15px;
+    border-style: solid 2px white;
+}
+
+.tpicture {
+    border: solid 3px white;
+    box-shadow: 0 0 0 1px #ddd;
+}
+
+.container-center {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.tpicture {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .tpicture:hover {opacity: 0.7;}
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Caption of Modal Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation */
+  .modal-content, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+
+  #myModal {
+      z-index:10;
+  }
+ .red {
+     color: red;
+ }
+
+.center {
+     text-align: center;
+ }
+
+ table, td, th {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+  }
+  
+  table, td, th {
+    border: 2px solid rgb(153, 107, 107);
+    border-bottom: solid 1px grey;
+    border-top: solid 1px grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 250px;
+   
+    
+  }
+
+th {
+    background-color:rgb(233, 94, 94);
+    font-size: large;
+}
+
+tr {
+    background-color: rgb(255, 255, 254);
+}
