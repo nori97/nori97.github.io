@@ -186,6 +186,18 @@ input {
 }
 
 @media screen and (max-width: 500px) {
+
+    .carousel-caption h1 {
+        font-size: 14px !important;
+    }
+
+    .h3-responsive {
+        font-size: 12px !important;
+    }
+    
+    p.catering{
+        font-size: 12px !important;
+    }
   
     input {
         padding: 10px;
@@ -469,7 +481,7 @@ input {
   }
 
   .carousel-caption {
-      height: 400px;
+      height: 170px;
   }
 
   .carousel-indicators li {
@@ -617,4 +629,10 @@ th {
 
 tr {
     background-color: rgb(255, 255, 254);
+}
+
+#burger {
+    background-color: transparent !important;
+    width: 55px;
+    padding-right: 60px;
 }
